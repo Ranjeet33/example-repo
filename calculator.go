@@ -40,7 +40,7 @@ func calculate(o operation) {
 }
 
 func main() {
-	fmt.Println("WELCOME !")
+	fmt.Println("ENTER TWO VALUES !")
 	num1, num2 := 1, 1
 	fmt.Scan(&num1, &num2)
 	a := operaends{x: float64(num1), y: float64(num2)}
