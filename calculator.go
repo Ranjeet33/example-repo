@@ -36,7 +36,7 @@ func calculate(o operation) {
 	fmt.Println(o.sub())
 	fmt.Println(o.mul())
 	fmt.Println(o.div())
-	//fmt.Println(o.power())
+	fmt.Println(o.power())
 }
 
 func main() {
